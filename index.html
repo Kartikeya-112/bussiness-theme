@@ -4,40 +4,163 @@
   <meta charset="UTF-8">
   <title>SQE Business</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-<!-- HERO -->
-<section class="hero fade">
+<!-- HERO SECTION -->
+<section class="hero">
   <div class="hero-content">
     <h1>Grow your Business with us</h1>
     <p>We help businesses grow digitally with modern solutions.</p>
-    <button>Get Started</button>
+    <button class="btn">Get Started</button>
   </div>
-  <img src="images/hero.jpg" alt="Hero">
+  <div class="hero-image">
+    <img src="images/hero.jpg" alt="Hero Image">
+  </div>
 </section>
 
 <!-- WHY CHOOSE US -->
-<section class="choose fade">
+<section class="choose">
   <div class="choose-left">
     <h2>Why Choose Us</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat.</p>
   </div>
   <div class="choose-cards">
-    <div class="card">Strategy & Research</div>
-    <div class="card">Design & Development</div>
-    <div class="card">Management</div>
-    <div class="card">Support</div>
+    <div class="card">
+      <div class="card-icon"><i class="fas fa-bullseye"></i></div>
+      <h3>Strategy & Research</h3>
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+    <div class="card">
+      <div class="card-icon"><i class="fas fa-palette"></i></div>
+      <h3>Design & Development</h3>
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+    <div class="card">
+      <div class="card-icon"><i class="fas fa-cogs"></i></div>
+      <h3>Management</h3>
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+    <div class="card">
+      <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+      <h3>Support</h3>
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
   </div>
 </section>
 
 <!-- ABOUT -->
-<section class="about fade">
-  <img src="images/about.png">
-  <div>
+<section class="about">
+  <div class="about-image">
+    <img src="images/about.png" alt="About Us">
+  </div>
+  <div class="about-text">
     <h2>About Us</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-    <button>Read More</button>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur vel sed delectus molestiae.</p>
+    <button class="btn">Read More</button>
   </div>
 </section>
+
+<!-- SKILLS -->
+<section class="skills">
+  <h2>Our Skills</h2>
+  <div class="skills-container">
+    <div class="skill">
+      <label>Web Design</label>
+      <div class="bar">
+        <span style="width: 90%"></span>
+      </div>
+    </div>
+    <div class="skill">
+      <label>Graphic Design</label>
+      <div class="bar">
+        <span style="width: 85%"></span>
+      </div>
+    </div>
+    <div class="skill">
+      <label>Web Development</label>
+      <div class="bar">
+        <span style="width: 70%"></span>
+      </div>
+    </div>
+    <div class="skill">
+      <label>Photoshop</label>
+      <div class="bar">
+        <span style="width: 80%"></span>
+      </div>
+    </div>
+  </div>
+  <div class="skills-image">
+    <img src="images/skills.jpg" alt="Skills">
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+  <h2>Our Services</h2>
+  <p class="services-subtitle">Lorem ipsum is simply dummy text of the printing and typesetting industry. just a demo sample text.</p>
+  <div class="services-container">
+    <div class="services-left">
+      <div class="service-box">
+        <div class="service-icon"><i class="fas fa-cog"></i></div>
+        <h3>Highly customizable</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, dignissimos.</p>
+      </div>
+      <div class="service-box">
+        <div class="service-icon"><i class="fas fa-tachometer-alt"></i></div>
+        <h3>Optimized for speed</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, dignissimos.</p>
+      </div>
+    </div>
+    <div class="services-center">
+      <img src="images/services.png" alt="Phone Display" class="phone-image">
+    </div>
+    <div class="services-right">
+      <div class="service-box">
+        <div class="service-icon"><i class="fas fa-puzzle-piece"></i></div>
+        <h3>Features & plugins</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, dignissimos.</p>
+      </div>
+      <div class="service-box">
+        <div class="service-icon"><i class="fas fa-headset"></i></div>
+        <h3>Dedicated support</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, dignissimos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORKS -->
+<section class="works">
+  <h2>Recent Works</h2>
+  <div class="filter-buttons">
+    <button class="filter-btn" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="brand">Brand</button>
+    <button class="filter-btn" data-filter="photoshop">Photoshop</button>
+    <button class="filter-btn" data-filter="web">Web Design</button>
+    <button class="filter-btn" data-filter="creative">Creative</button>
+  </div>
+  <div class="work-grid">
+    <div class="work">
+      <img src="images/portfolio/portfolio-01.jpg" alt="Work 1">
+    </div>
+    <div class="work">
+      <img src="images/portfolio/portfolio-02.jpg" alt="Work 2">
+    </div>
+    <div class="work">
+      <img src="images/portfolio/portfolio-03.jpg" alt="Work 3">
+    </div>
+    <div class="work">
+      <img src="images/portfolio/portfolio-04.jpg" alt="Work 4">
+    </div>
+    <div class="work">
+      <img src="images/portfolio/portfolio-05.jpg" alt="Work 5">
+    </div>
+    <div class="work">
+      <img src="images/portfolio/portfolio-06.jpg" alt="Work 6">
+    </div>
+  </div>
+</section>
+
